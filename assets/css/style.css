@@ -1,7 +1,102 @@
+* {
+}
+
+/*Header color and background color*/
 .header {
-  padding: 60px;
+  padding: 20px;
   text-align: center;
   background-color: aqua;
   color: rgb(61, 61, 61);
-  font-size: 30px;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-wrap: wrap;
+}
+
+.top-bar {
+  text-align: center;
+}
+
+.contact-info ul {
+  justify-content: space-evenly;
+  display: flex;
+  list-style-type: none;
+}
+
+header {
+  padding: 20px 0 20px 0;
+  background-color: #444646;
+  color: #024e76;
+}
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  padding: 0 10px 0 50px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*TESTING*/
+main {
+  display: flex;
+  /* Forces elements to the next line if they don't fit */
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+
+.card {
+  flex: 1 0 0;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  position: relative;
+}
+
+.card header {
+  padding: 20px;
+  background: #13293d;
+  color: #fff;
+}
+
+.card img {
+  width: 100%;
+  min-width: 400px;
+}
+
+.hero {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("../images/02-portfolio-1.jpg");
+  height: 50%;
+  width: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: left;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
