@@ -1,51 +1,67 @@
 * {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*Header color and background color*/
-.header {
-  padding: 20px;
-  text-align: center;
-  background-color: aqua;
-  color: rgb(61, 61, 61);
-  font-size: 60px;
-  font-family: Arial, Helvetica, sans-serif;
-  flex-wrap: wrap;
-}
-
-.top-bar {
-  text-align: center;
-}
-
-.contact-info ul {
-  justify-content: space-evenly;
-  display: flex;
-  list-style-type: none;
-}
-
 header {
   padding: 20px 0 20px 0;
   background-color: #444646;
   color: #024e76;
 }
+
 header h1 {
   font-weight: bold;
   font-size: 36px;
   padding: 0 10px 0 50px;
+  display: inline;
+  color: lightpink;
+  background-color: grey;
+}
+
+.photo {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
 }
 
 header a {
-  text-decoration: none;
+  color: lightcyan;
+}
+
+header nav {
+  margin-right: 20px;
+  float: right;
+  margin: 7px 0;
 }
 
 header nav ul li {
-  display: inline;
+  display: inline-block;
 }
 
 header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
   font-size: 22px;
+  text-decoration-thickness: 3px;
   font-family: Arial, Helvetica, sans-serif;
+}
+/*Header section ends*/
+
+/*Hero Section Begins*/
+.hero {
+  background-image: url("../images/TN4.jpg");
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-info ul {
+  justify-content: space-evenly;
+  display: flex;
+  list-style-type: none;
 }
 
 /*TESTING*/
