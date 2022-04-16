@@ -41,7 +41,7 @@ body {
 /*Header color and background color*/
 header {
   padding: 20px 0 20px 0;
-  background-color:#dcd0ff ;
+  background-color: #dcd0ff;
   color: #444646;
 }
 
@@ -125,7 +125,7 @@ header nav ul li a {
 }
 
 .projects div {
-  color:white;
+  color: white;
 }
 
 .column {
@@ -181,7 +181,7 @@ header nav ul li a {
 }
 
 .project4 {
-  background-image: url("..");
+  background-image: url("../images/NEW.png");
   min-height: 125px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -251,6 +251,21 @@ header nav ul li a {
 
 .contact ul li a:hover {
   color: white;
-  background-color: blue;
+  background-color: antiquewhite;
   padding: 10px;
+}
+
+/*TESTING*/
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.photo-spot {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.line::after {
+  content: "";
+  clear: both;
+  display: table;
 }
