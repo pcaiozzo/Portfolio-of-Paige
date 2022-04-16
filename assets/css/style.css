@@ -18,6 +18,10 @@
   display: flex;
   flex-wrap: wrap;
 }
+.about p {
+  font-size: large;
+  color: black;
+}
 
 .row {
   display: flex;
@@ -27,19 +31,26 @@
   width: 100%;
 }
 
+a:hover {
+  color: antiquewhite;
+}
+
+body {
+  background-color: whi;
+}
 /*Header color and background color*/
 header {
   padding: 20px 0 20px 0;
-  background-color: grey;
-  color: lightpink;
+  background-color:#dcd0ff ;
+  color: #444646;
 }
 
 header h1 {
   font-size: 36px;
   padding: 0 10px 0 50px;
   display: inline-block;
-  color: lightpink;
-  background-color: grey;
+  color: white;
+  background-color: #dcd0ff;
 }
 
 .photo {
@@ -49,7 +60,7 @@ header h1 {
 }
 
 header a {
-  color: lightcyan;
+  color: white;
 }
 
 header nav {
@@ -83,8 +94,8 @@ header nav ul li a {
 .hero h2 {
   font-size: 25px;
   text-align: right;
-  background-color: #afe9e9;
-  color: #444646;
+  background-color: #dcd0ff;
+  color: white;
   padding: 5px;
   float: right;
   margin-top: 9%;
@@ -100,11 +111,11 @@ header nav ul li a {
 }
 
 .projects h2 {
-  border-right: 2px solid #024e76;
+  border-right: 2px solid black;
   width: 200px;
   text-align: right;
   flex-shrink: 0;
-  color: #024e76;
+  color: black;
   font-size: 35px;
   padding-right: 15px;
 }
@@ -114,7 +125,7 @@ header nav ul li a {
 }
 
 .projects div {
-  color: #024e76;
+  color:white;
 }
 
 .column {
@@ -127,7 +138,7 @@ header nav ul li a {
 
 .card-header,
 .card-footer {
-  background-color: #afe9e9;
+  background-color: #dcd0ff;
   padding: 5px 5px 5px 5px;
 }
 
@@ -144,20 +155,20 @@ header nav ul li a {
 }
 
 .project1 {
-  background-image: url("../images/Screenshot.PNG");
+  background-image: url("../images/02-run-buddy.jpg");
   min-height: 300px;
   background-size: cover;
   flex-basis: 92%;
-  border: 5px solid #afe9e9;
+  border: 5px solid lightpink;
 }
 
 .project2 {
-  background-image: url("..");
+  background-image: url("../images/Screenshot.PNG");
   min-height: 125px;
   background-size: cover;
   width: 100%;
   flex-basis: 50%;
-  border: 5px solid #afe9e9;
+  border: 5px solid lightpink;
 }
 
 .project3 {
@@ -166,7 +177,7 @@ header nav ul li a {
   background-size: cover;
   width: 100%;
   flex-basis: 50%;
-  border: 5px solid #afe9e9;
+  border: 5px solid lightpink;
 }
 
 .project4 {
@@ -177,14 +188,14 @@ header nav ul li a {
   background-position: center;
   width: 100%;
   flex-basis: 50%;
-  border: 5px solid #afe9e9;
+  border: 5px solid lightpink;
 }
 
-.future h3 {
+.project4,
+.project5 h3 {
   font: 20px;
   color: #afe9e9;
 }
-
 
 .card {
   flex: 1 0 0;
@@ -206,10 +217,40 @@ header nav ul li a {
   min-width: 400px;
 }
 
-/* Place text in the middle of the image */
+.card-container h3 {
+  color: white;
+  background-color: #dcd0ff;
+}
 
-.contact-info ul {
-  justify-content: space-evenly;
+/* Place text in the middle of the image */
+/*Contact Section Starts*/
+
+.contact {
   display: flex;
-  list-style-type: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+}
+
+.contact ul li {
+  padding: 30px 25px 25px 25px;
+}
+
+.contact ul li a {
+  text-decoration: none;
+  color: #444646;
+  border-bottom: solid #444646 3px;
+  font-size: 20px;
+}
+
+.contact ul li a:hover {
+  color: white;
+  background-color: blue;
+  padding: 10px;
 }
