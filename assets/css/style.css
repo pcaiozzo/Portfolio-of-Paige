@@ -109,6 +109,83 @@ header nav ul li a {
   padding-right: 15px;
 }
 
+.projects img {
+  height: 200px;
+}
+
+.projects div {
+  color: #024e76;
+}
+
+.column {
+  display: flex;
+  min-height: 150px;
+  min-width: 550px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.card-header,
+.card-footer {
+  background-color: #afe9e9;
+  padding: 5px 5px 5px 5px;
+}
+
+.card-container#first-card {
+  flex-basis: 95%;
+}
+
+.card-container {
+  flex-basis: 47%;
+}
+
+.card-container:hover {
+  opacity: 0.6;
+}
+
+.project1 {
+  background-image: url("../images/Screenshot.PNG");
+  min-height: 300px;
+  background-size: cover;
+  flex-basis: 92%;
+  border: 5px solid #afe9e9;
+}
+
+.project2 {
+  background-image: url("..");
+  min-height: 125px;
+  background-size: cover;
+  width: 100%;
+  flex-basis: 50%;
+  border: 5px solid #afe9e9;
+}
+
+.project3 {
+  background-image: url("..");
+  min-height: 125px;
+  background-size: cover;
+  width: 100%;
+  flex-basis: 50%;
+  border: 5px solid #afe9e9;
+}
+
+.project4 {
+  background-image: url("..");
+  min-height: 125px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  flex-basis: 50%;
+  border: 5px solid #afe9e9;
+}
+
+.future h3 {
+  font: 20px;
+  color: #afe9e9;
+}
+
+
 .card {
   flex: 1 0 0;
   padding: 10px;
