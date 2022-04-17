@@ -193,6 +193,17 @@ header nav ul li a {
   border: 5px solid lightpink;
 }
 
+.project5 {
+  background-image: url("../images/Screenshot\ 2022-04-17\ 000643.png");
+  min-height: 125px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  flex-basis: 50%;
+  border: 5px solid lightpink;
+}
+
 .project4,
 .project5 h3 {
   font: 20px;
