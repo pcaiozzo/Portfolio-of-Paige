@@ -11,4 +11,4 @@ https://pcaiozzo.github.io/Portfolio-of-Paige/
 
 ## Screenshot
 
-![Screenshot](./ScreenshotNEW.png)
+![Screenshot](./assets/images/ScreenshotNEW.png)
