@@ -4,6 +4,13 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+:root {
+  --white: white;
+  --black: black;
+  --primary-color: #dcd0ff;
+  --secondary-color: lightpink;
+}
+
 .float-left {
   float: left;
   margin-right: 25px;
@@ -20,9 +27,8 @@
 }
 .about p {
   font-size: x-large;
-  color: black;
+  color: var(--black);
   text-align: center;
-
 }
 
 .row {
@@ -38,12 +44,12 @@ a:hover {
 }
 
 body {
-  background-color: whi;
+  background-color: var(--white);
 }
 /*Header color and background color*/
 header {
   padding: 20px 0 20px 0;
-  background-color: #dcd0ff;
+  background-color: var(--primary-color);
   color: #444646;
 }
 
@@ -51,8 +57,8 @@ header h1 {
   font-size: 36px;
   padding: 0 10px 0 50px;
   display: inline-block;
-  color: white;
-  background-color: #dcd0ff;
+  color: var(--white);
+  background-color: var(--primary-color);
 }
 
 .photo {
@@ -96,8 +102,8 @@ header nav ul li a {
 .hero h2 {
   font-size: 25px;
   text-align: right;
-  background-color: #dcd0ff;
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--white);
   padding: 5px;
   float: right;
   margin-top: 9%;
@@ -113,11 +119,11 @@ header nav ul li a {
 }
 
 .projects h2 {
-  border-right: 2px solid black;
+  border-right: 2px solid var(--black);
   width: 200px;
   text-align: right;
   flex-shrink: 0;
-  color: black;
+  color: var(--black);
   font-size: 35px;
   padding-right: 15px;
 }
@@ -127,7 +133,7 @@ header nav ul li a {
 }
 
 .projects div {
-  color: white;
+  color: var(--white);
 }
 
 .column {
@@ -140,7 +146,7 @@ header nav ul li a {
 
 .card-header,
 .card-footer {
-  background-color: #dcd0ff;
+  background-color: var(--primary-color);
   padding: 5px 5px 5px 5px;
 }
 
@@ -161,7 +167,7 @@ header nav ul li a {
   min-height: 300px;
   background-size: cover;
   flex-basis: 92%;
-  border: 5px solid lightpink;
+  border: 5px solid var(--secondary-color);
 }
 
 .project2 {
@@ -170,7 +176,7 @@ header nav ul li a {
   background-size: cover;
   width: 100%;
   flex-basis: 50%;
-  border: 5px solid lightpink;
+  border: 5px solid var(--secondary-color);
 }
 
 .project3 {
@@ -179,7 +185,7 @@ header nav ul li a {
   background-size: cover;
   width: 100%;
   flex-basis: 50%;
-  border: 5px solid lightpink;
+  border: 5px solid var(--secondary-color);
 }
 
 .project4 {
@@ -190,7 +196,7 @@ header nav ul li a {
   background-position: center;
   width: 100%;
   flex-basis: 50%;
-  border: 5px solid lightpink;
+  border: 5px solid var(--secondary-color);
 }
 
 .project5 {
@@ -201,7 +207,7 @@ header nav ul li a {
   background-position: center;
   width: 100%;
   flex-basis: 50%;
-  border: 5px solid lightpink;
+  border: 5px solid var(--secondary-color);
 }
 
 .project4,
@@ -231,8 +237,8 @@ header nav ul li a {
 }
 
 .card-container h3 {
-  color: white;
-  background-color: #dcd0ff;
+  color: var(--white);
+  background-color: var(--primary-color);
 }
 
 /* Place text in the middle of the image */
@@ -263,7 +269,7 @@ header nav ul li a {
 }
 
 .contact ul li a:hover {
-  color: white;
+  color: var(--white);
   background-color: antiquewhite;
   padding: 10px;
 }
@@ -285,14 +291,14 @@ header nav ul li a {
 
 .line img {
   border-radius: 20%;
-  border: 3px solid black;
+  border: 3px solid var(--black);
   width: 100px;
   height: 200px;
   object-fit: cover;
 }
 
 .sticky {
-    position: fixed;
+  position: fixed;
   top: 0;
-  width: 100%
+  width: 100%;
 }
